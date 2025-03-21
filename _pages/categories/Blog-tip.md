@@ -1,7 +1,7 @@
 ---
-title: "Post"
+title: "Blog tip"
 layout: archive
-permalink: categories/post
+permalink: categories/blog-tip
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.post %}
+{% assign posts = site.categories['Blog tip'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

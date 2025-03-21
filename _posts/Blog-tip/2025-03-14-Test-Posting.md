@@ -2,10 +2,7 @@
 title:  "Test Posting" 
 
 categories:
-  - Post
-
-toc: true
-toc_sticky: true
+  - Blog tip
 
 date: 2025-03-14
 last_modified_at: 2025-03-19
